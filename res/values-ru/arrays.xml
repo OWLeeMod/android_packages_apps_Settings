@@ -478,13 +478,4 @@
     <item msgid="406385694840950802">"низкий"</item>
     <item msgid="4212263919458209842">"очень низкий"</item>
   </string-array>    
-  <string-array name="profile_entries">
-        <item>Включить</item>
-        <item>Выключить</item>
-        <item>Оставить без изменения</item>
-    </string-array>
-    <string-array name="profile_connection_entries">
-        <item>Выключить</item>
-        <item>Включить</item>
-    </string-array>
 </resources>

@@ -15,6 +15,10 @@
    limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Wi-Fi region code -->
+    <string name="wifi_setting_countrycode_title">Код региона Wi-Fi</string>
+    <string name="wifi_setting_countrycode_summary">Укажите код региона Wi-Fi</string>
+    <string name="wifi_setting_countrycode_error">При настройке кода региона Wi-Fi возникла неполадка.</string>
 
     <!--Notification light-->
     <string name="display_lights_settings_title">Экран и индикация</string>
@@ -205,10 +209,6 @@
     <string name="profile_unknown_nfc_tag">Неизвестный профиль</string>
     <string name="profile_add_nfc_text">Эта NFC-метка присвоена неизвестному профилю. Привязка NFC-метки к существующему профилю позволит использовать метку для его выбора.</string>
     <string name="profile_select">Выберите профиль</string>
-
-    <!-- time range preference -->
-    <string name="start_time_title">Начало</string>
-    <string name="end_time_title">Конец</string>
 
     <!--Battery icon-->
     <string name="battery_status_icon_title">Стиль значка</string>
