@@ -103,6 +103,14 @@
         android:icon="@drawable/ic_settings_applications"
         android:title="@string/applications_settings"
         android:id="@+id/application_settings" />
+        
+            <!-- AppOps -->
+    <header
+        android:fragment="com.android.settings.applications.AppOpsSummary"
+        android:icon="@drawable/ic_app_ops"
+        android:title="@string/appops_settings_title"
+        android:id="@+id/appops_settings" />
+
 
     <!-- Manage users -->
     <header
@@ -173,14 +181,14 @@
     <!-- SYSTEM -->
     <header android:id="@+id/system_section"
         android:title="@string/header_category_system" />
-
-    <!-- AppOps -->
-    <header
-        android:fragment="com.android.settings.applications.AppOpsSummary"
-        android:icon="@drawable/ic_app_ops"
-        android:title="@string/appops_settings_title"
-        android:id="@+id/appops_settings" />
-
+        
+   	<!-- Superuser -->		
+   	<header
+	android:id="@+id/superuser"
+	android:fragment="com.android.settings.cyanogenmod.superuser.PolicyNativeFragment"
+	android:icon="@drawable/ic_action_permission"
+        android:title="@string/superuser" />     
+			
     <!-- Date & Time -->
     <header
         android:id="@+id/date_time_settings"
