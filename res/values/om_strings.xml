@@ -16,6 +16,10 @@
    limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- Main list strings -->
+	<string name="performance_settings">Performance</string>
+
     <!-- Wi-Fi region code -->
     <string name="wifi_setting_countrycode_title">Wi-Fi region code</string>
     <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
