@@ -65,11 +65,8 @@
     <string name="pulse_speed_slow">Медленно</string>
     <string name="pulse_speed_very_slow">Очень медленно</string>
 	
-	 <!--CRT-Animation-->
-	<string name="screen_animation_off_title">Анимация выключения</string>
-    <string name="screen_animation_style_title">Стиль анимации</string>
-    <string name="screen_animation_style_electronbeam">Пучок электронов</string>
-    <string name="screen_animation_style_fade">Затухание</string>
+	<!--Font size-->
+    <string name="font_size_sample">Пример текста</string>
 	
 	<!-- Quiet hours -->
 	<string name="quiet_hours_title">Тихие часы</string>
