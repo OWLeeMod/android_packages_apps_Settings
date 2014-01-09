@@ -86,6 +86,9 @@
     <!--Volume buttons wake-->
     <string name="volume_wake_title">Volume buttons wake</string>
     <string name="volume_wake_summary">Pressing either volume button will wake your device</string>
+	
+    <!-- Minimum Vibration Duration -->
+    <string name="minimum_vibration_duration">Minimum vibration duration</string>
 
     <!--Lockscreen see through-->
     <string name="see_through_title">See through</string>

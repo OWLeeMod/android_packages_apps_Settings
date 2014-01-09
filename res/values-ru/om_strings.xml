@@ -67,8 +67,12 @@
     <!-- Link volumes -->
     <string name="link_volume_ringtones">Связать громкость</string>
     <string name="volume_ring_only_description">Рингтон</string>
+	
+	   <!-- Minimum Vibration Duration -->
+    <string name="minimum_vibration_duration">Минимальная длительность вибрации</string>
 
     <string name="increasing_ring_title">Возрастающая громкость звонка</string>
+
     <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
     <string name="checkbox_increasing_ring">Включить</string>
     <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
@@ -180,4 +184,3 @@
     <string name="om_version">Версия OWLee-Mod</string>
     <string name="om_version_default">Неизвестно</string>
 </resources>
-
