@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright 2013 The Android Open Source Project
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--Notification light-->
+    <string name="display_lights_settings_title">Экран и индикация</string>
+    <string name="lights_category_title">Индикация</string>
+    <string name="notification_light_general_title">Общие</string>
+    <string name="notification_light_applist_title">Приложения</string>
+    <string name="notification_light_phonelist_title">Телефон</string>
+    <string name="notification_light_use_custom">Собственные значения</string>
+    <string name="notification_light_enabled">Включено</string>
+    <string name="notification_light_disabled">Выключено</string>
+    <string name="notification_light_default_value">По умолчанию</string>
+    <string name="notification_light_missed_call_title">Пропущенный вызов</string>
+    <string name="notification_light_voicemail_title">Голосовая почта</string>
+
+    <!--Battery lights-->
+    <string name="battery_light_title">Индикация батареи</string>
+    <string name="battery_low_pulse_title">Индикация разрядки батареи</string>
+    <string name="battery_light_list_title">Цвета</string>
+    <string name="battery_light_low_color_title">Батарея разряжена</string>
+    <string name="battery_light_medium_color_title">Заряжается</string>
+    <string name="battery_light_full_color_title">Полностью заряжена</string>
+
+    <!--Lights settings screen, notification light settings-->
+    <string name="edit_light_settings">Изменение настроек индикатора</string>
+    <string name="pulse_speed_title">Длительность и скорость мигания</string>
+    <string name="default_time">Средне</string>
+    <string name="custom_time">Не задано</string>
+    <string name="dialog_test">Проверка</string>
+    <string name="dialog_delete_title">Удалить?</string>
+    <string name="dialog_delete_message">Настройки индикатора для этого приложения будут удалены.</string>
+    <string name="dialog_test_message">Выключите экран, чтобы увидеть выбранные настройки индикатора в действии.</string>
+    <string name="dialog_test_button">Отмена</string>
+
+    <!--Values for the notification light pulse spinners-->
+    <string name="pulse_length_always_on">Вкл. постоянно</string>
+    <string name="pulse_length_very_short">Очень коротко</string>
+    <string name="pulse_length_short">Коротко</string>
+    <string name="pulse_length_normal">Средне</string>
+    <string name="pulse_length_long">Долго</string>
+    <string name="pulse_length_very_long">Очень долго</string>
+    <string name="pulse_speed_very_fast">Очень быстро</string>
+    <string name="pulse_speed_fast">Быстро</string>
+    <string name="pulse_speed_normal">Средне</string>
+    <string name="pulse_speed_slow">Медленно</string>
+    <string name="pulse_speed_very_slow">Очень медленно</string>
+
+    <!-- Volume adjust sounds -->
+    <string name="volume_adjust_sounds_enable_summary">Воспроизводить звук при изменении громкости кнопками «+» или «-»</string>
+
+    <!-- Link volumes -->
+    <string name="link_volume_ringtones">Связать громкость</string>
+    <string name="volume_ring_only_description">Рингтон</string>
+
+    <string name="increasing_ring_title">Возрастающая громкость звонка</string>
+    <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
+    <string name="checkbox_increasing_ring">Включить</string>
+    <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
+    <string name="increasing_ring_min_volume_title">Начальная громкость звонка</string>
+    <string name="increasing_ring_volume_notice">Примечание:\nЕсли начальная громкость выше установленной в данный момент, звонок будет воспроизведён на громкости, установленной в системе.</string>
+    <string name="increasing_ring_interval_title">Интервал увеличения</string>
+    <string name="increasing_ring_interval_eachring">При каждом гудке</string>
+    <string name="increasing_ring_interval_half_second">0,5 секунды</string>
+    <string name="increasing_ring_interval_1second">1 секунда</string>
+    <string name="increasing_ring_interval_2seconds">2 секунды</string>
+    <string name="increasing_ring_interval_3seconds">3 секунды</string>
+    <string name="increasing_ring_interval_5seconds">5 секунд</string>
+    <string name="increasing_ring_interval_10seconds">10 секунд</string>
+
+    <!--Volume buttons category-->
+    <string name="volume_buttons_category">Кнопки регулировки громкости</string>
+
+    <!--Volume buttons wake-->
+    <string name="volume_wake_title">Включение кнопками громкости</string>
+    <string name="volume_wake_summary">Включать экран при нажатии кнопок регулировки громкости</string>
+
+    <!--Lockscreen see through-->
+    <string name="see_through_title">Размытость</string>
+    <string name="see_through_summary">Показывает ваш экран блокировки с ярким эффектом размытия. И при этом сохраняет место где вы были.</string>
+
+    <!--AppOps-->
+    <string name="appops_settings_title">Безопасность приложений</string>
+
+    <!--User preferences settings-->
+    <string name="personalization">Персонализация</string>
+    <string name="reset_user_preferences_title">Сброс настроек</string>
+    <string name="reset_user_preferences_summary">Восстанавливает пользовательские настройки интерфейса по умолчанию</string>
+    <string name="reset_user_preferences_dialog">Вы уверены, что хотите сбросить ваши настройки?</string>
+
+    <!-- Pefromance Control -->
+    <string name="performance_settings_title">Производительность</string>
+    <string name="performance_settings_warning_title">Соблюдайте осторожность</string>
+    <string name="performance_settings_warning">Эти настройки включены для экспериментов и любые внесённые изменения могут вызвать нестабильную работу, ошибки, потерю данных или аппаратные сбои.\n\nМы просим не слать баг-репорты, если вы что-то меняли в этих настройках.</string>
+    <string name="performance_set_on_boot">Выставлять при загрузке</string>
+    <string name="performance_set_on_boot_summary">Применять текущие настройки при перезагрузке</string>
+    <string name="processor_title">Процессор</string>
+    <string name="cpu_cur_freq_title">Текущая частота</string>
+    <string name="cpu_governors_title">Алгоритм смены частоты</string>
+    <string name="cpu_min_freq_title">Минимальная частота</string>
+    <string name="cpu_max_freq_title">Максимальная частота</string>
+    <string name="io_scheds_title">Планировщик I/O</string>
+    <string name="io_sched_title">Планировщик I/O</string>
+    <string name="perf_profile_title">Профиль</string>
+    <string name="memory_management_title">Управление памятью</string>
+    <string name="pref_ksm_title">Объединять страницы памяти ядра</string>
+    <string name="pref_ksm_summary">Позволяет снизить физические требования к памяти и увеличить производительность (требуется перезагрузка)</string>
+    <string name="pref_purgeable_assets_title">Разрешить сброс активов</string>
+    <string name="pref_purgeable_assets_summary">Позволяет освобождать больше памяти путём очистки активов графических элементов (требуется перезагрузка)</string>
+    <string name="pref_use_16bpp_alpha_title">16-битная прозрачность</string>
+    <string name="pref_use_16bpp_alpha_summary">Увеличенная производительность графической системы, но возможно снижение качества и появление визуальных артефактов (требуется перезагрузка)</string>
+
+    <!-- Powersaver settings -->
+    <string name="power_saver_settings_title">Энергосбережения</string>
+    <string name="power_saver_settings_summary">Оптимизировать /"Жизнь батареи/"</string>
+    <string name="power_saver_toggles_mobile_title">Передача данных</string>
+    <string name="power_saver_toggles_location_title">Местоположения</string>
+    <string name="power_saver_toggles_gps_title">Выключить GPS</string>
+    <string name="power_saver_toggles_gps_summary">Служба GPS будет автоматически отключаться в режиме /"Сна/"</string>
+    <string name="power_saver_toggles_mobile_data_title">Выключить Передачу данных</string>
+    <string name="power_saver_toggles_mobile_data_summary">Передача данных будет автоматически отключена в режиме /"Сна/"</string>
+    <string name="power_saver_toggles_performance_title">Производительность</string>
+    <string name="power_saver_toggles_cpu_title">Мощность CPU</string>
+    <string name="power_saver_toggles_cpu_summary">Сохранять оптимальную нагрузку на CPU</string>
+    <string name="power_saver_cat_data_usage">Передача данных</string>
+    <string name="power_saver_common">Общее</string>
+
+    <!-- time range preference -->
+    <string name="start_time_title">Начало</string>
+    <string name="end_time_title">Конец</string>
+
+    <!--Battery icon-->
+    <string name="battery_status_icon_title">Стиль значка</string>
+    <string name="battery_bar">Значок</string>
+    <string name="battery_bar_percent">Значок с %</string>
+    <string name="battery_circle">Круг</string>
+    <string name="battery_circle_percent">Круг с %</string>
+
+    <!-- Low battery warning policy -->
+    <string name="pref_low_battery_warning_policy_title">Предупреждение о низком заряде батареи</string>
+    <string name="pref_low_battery_warning_policy_dialog_title">Укажите какое предупреждение показывать</string>
+    <string name="low_battery_warning_policy_popup_sound">Диалог и звук</string>
+    <string name="low_battery_warning_policy_notif_sound">Уведомление и звук</string>
+    <string name="low_battery_warning_policy_popup">Только диалог</string>
+    <string name="low_battery_warning_policy_notif">Только уведомление</string>
+    <string name="low_battery_warning_policy_sound">Только звук</string>
+    <string name="battery_prefs_title">Настройки</string>
+    <string name="battery_stats_title">Статистика</string>
+
+    <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
+    <string name="custom_runtime_warning_title">Предупреждение!</string>
+    <string name="custom_runtime_warning_message">ART не поддерживается OWLee-Mod. Эта опция является экспериментальной и может повлечь нестабильную работу, ошибки, потерю данных или даже препятствовать загрузке устройства. Посетите страницу «&lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Введение в ART&lt;/a&gt;» (на английском языке) для получения подробных сведений.&lt;br/&gt;&lt;br/&gt;Мы просим не присылать баг-репорты, если вы выбрали ART в качестве среды выполнения системы.&lt;br/&gt;&lt;br/&gt;Вы действительно хотите перезагрузить устройство и переключить среду выполнения с «<xliff:g id="old" example="libdvm.so">%1$s</xliff:g>» на «<xliff:g id="new" example="libart.so">%2$s</xliff:g>»?</string>
+
+    <!-- Lockscreen widgets -->
+    <string name="security_maximize_widgets_title">Развёрнутые виджеты</string>
+
+    <!-- Changelog -->
+    <string name="changelog_header">Список изменений</string>
+    <string name="changelog_load">Загрузка списка изменений\u2026</string>
+    <string name="changelog_error">Ошибка загрузки списка изменений</string>
+    <string name="changelog_unknown">Неизвестно</string>
+    <string name="changelog_version">Версия</string>
+
+    <!--OM version-->
+    <string name="om_version">Версия OWLee-Mod</string>
+    <string name="om_version_default">Неизвестно</string>
+</resources>
+
