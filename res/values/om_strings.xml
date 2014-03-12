@@ -113,21 +113,6 @@
 
     <!-- Lockscreen widgets -->
     <string name="security_maximize_widgets_title">Maximize widgets</string>
-	
-	<!-- ListView animation -->
-    <string name="interface_settings_animation_title">Animation options</string>
-    <string name="listview_animation_title">ListView animation</string>
-    <string name="listview_off">Default</string>
-    <string name="listview_wave_left">Wave (left)</string>
-    <string name="listview_wave_right">Wave (right)</string>
-    <string name="listview_alpha">Alpha</string>
-    <string name="listview_scale">Scale</string>
-    <string name="listview_stack_top">Stack (top)</string>
-    <string name="listview_stack_bottom">Stack (bottom)</string>
-    <string name="listview_unfold">Unfold</string>
-    <string name="listview_fold">Fold</string>
-    <string name="listview_translate_left">Translate (left)</string>
-    <string name="listview_translate_right">Translate (right)</string>
 
     <!-- Basic Numbers -->
     <string name="two">Two</string>
