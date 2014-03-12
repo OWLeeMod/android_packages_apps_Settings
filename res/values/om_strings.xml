@@ -185,6 +185,11 @@
     <string name="changelog_error">Unable to load changelog</string>
     <string name="changelog_unknown">Unknown</string>
     <string name="changelog_version">Version</string>
+	
+		<!--Dev category-->
+	<string name="system_category">System</string>
+	<string name="test_tools_category">Test tools</string>
+	<string name="animation_settings_category">Animation Tine-Up</string>
 
     <!-- time range preference -->
     <string name="start_time_title">Start</string>
