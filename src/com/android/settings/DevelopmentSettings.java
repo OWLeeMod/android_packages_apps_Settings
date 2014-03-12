@@ -66,8 +66,6 @@ import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.android.settings.DisplaySettings;
-
 import dalvik.system.VMRuntime;
 
 import java.io.File;
