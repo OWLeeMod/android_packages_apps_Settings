@@ -57,6 +57,12 @@
     <string name="pulse_speed_normal">Normal</string>
     <string name="pulse_speed_slow">Slow</string>
     <string name="pulse_speed_very_slow">Very slow</string>
+	
+	    <!-- Screen off animation -->
+    <string name="screen_off_animation">Screen-off animation</string>
+    <string name="screen_off_fadeout">Fade out</string>
+    <string name="screen_off_electronbeam">Electron beam</string>
+    <string name="screen_off_scaledown">Scale down</string>
 
     <!-- Volume adjust sounds -->
     <string name="volume_adjust_sounds_enable_summary">Play sound when adjusting ringtone with volume buttons</string>
@@ -177,27 +183,6 @@
     <string name="quiet_hours_alarm_and">" and "</string>
     <string name="quiet_hours_alarm_dialog_title">QUIETHOURS BYPASSED</string>
     <string name="quiet_hours_alarm_message">" met the requirements to bypass Quiet Hours!"</string>
-	
-	<!-- Change Log strings -->
-    <string name="changelog_title">View changelog</string>
-    <string name="changelog_dialog">Changelog</string>
-    <string name="changelog_loading">Loading changelog...</string>
-    <string name="changelog_error">Unable to load changelog</string>
-    <string name="changelog_unknown">Unknown</string>
-    <string name="changelog_version">Version</string>
-
-    <!--Dev category-->
-    <string name="system_category">System</string>
-    <string name="test_tools_category">Test tools</string>
-    <string name="animation_settings_category">Animation Tine-Up</string>
-
-    <!-- time range preference -->
-    <string name="start_time_title">Start</string>
-    <string name="end_time_title">End</string>
-
-     <!--OM version-->
-    <string name="om_version">OWLee-Mod version</string>
-    <string name="om_version_default">Unknown</string>
 
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Ring mode</string>
@@ -316,5 +301,26 @@
     <string name="toggle2g3g">2G/3G</string>
     <string name="toggleWimax">WiMAX</string>
     <string name="toggleNfc">NFC</string>
+	
+		<!-- Change Log strings -->
+    <string name="changelog_title">View changelog</string>
+    <string name="changelog_dialog">Changelog</string>
+    <string name="changelog_loading">Loading changelog...</string>
+    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_unknown">Unknown</string>
+    <string name="changelog_version">Version</string>
+
+    <!--Dev category-->
+    <string name="system_category">System</string>
+    <string name="test_tools_category">Test tools</string>
+    <string name="animation_settings_category">Animation Tine-Up</string>
+
+    <!-- time range preference -->
+    <string name="start_time_title">Start</string>
+    <string name="end_time_title">End</string>
+
+     <!--OM version-->
+    <string name="om_version">OWLee-Mod version</string>
+    <string name="om_version_default">Unknown</string>
 
 </resources>
