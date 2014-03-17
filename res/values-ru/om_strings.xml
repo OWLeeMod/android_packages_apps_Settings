@@ -60,6 +60,31 @@
     <string name="pulse_speed_normal">Средне</string>
     <string name="pulse_speed_slow">Медленно</string>
     <string name="pulse_speed_very_slow">Очень медленно</string>
+	
+	 <!--CRT-Animation-->
+	<string name="screen_animation_off_title">Анимация выключения</string>
+    <string name="screen_animation_style_title">Стиль анимации</string>
+    <string name="screen_animation_style_electronbeam">Пучок электронов</string>
+    <string name="screen_animation_style_fade">Затухание</string>
+	
+	<!-- Quiet hours -->
+	<string name="quiet_hours_title">Тихие часы</string>
+    <string name="quiet_hours_summary">Настройка времени, когда устройство должно быть тихим</string>
+    <string name="quiet_hours_enabled">Включить тихие часы</string>
+    <string name="quiet_hours_ringer">Телефонные вызовы</string>
+    <string name="quiet_hours_ringer_allow_all">Не отключать звук</string>
+    <string name="quiet_hours_ringer_allow_contacts">Не отключать звук для контактов</string>
+    <string name="quiet_hours_ringer_allow_starred">Не отключать звук для избранных контактов</string>
+    <string name="quiet_hours_ringer_mute_all">Отключить звук для всех</string>
+    <string name="quiet_hours_mute">Отключить звук уведомлений</string>
+    <string name="quiet_hours_system">Отключить системные звуки</string>
+    <string name="quiet_hours_still">Отключить вибрацию</string>
+    <string name="quiet_hours_dim">Отключить индикатор событий</string>
+    <string name="quiet_hours_haptic">Отключить виброотклик</string>
+    <string name="quiet_hours_active_from">Включены с</string>
+    <string name="quiet_hours_active_to">по</string>
+    <string name="start_time_title">Начало</string>
+    <string name="end_time_title">Конец</string>
 
     <!-- Volume adjust sounds -->
     <string name="volume_adjust_sounds_enable_summary">Воспроизводить звук при изменении громкости кнопками «+» или «-»</string>
