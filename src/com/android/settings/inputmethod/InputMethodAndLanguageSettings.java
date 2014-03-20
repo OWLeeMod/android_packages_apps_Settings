@@ -65,9 +65,6 @@ public class InputMethodAndLanguageSettings extends SettingsPreferenceFragment
     private static final String KEY_CURRENT_INPUT_METHOD = "current_input_method";
     private static final String KEY_INPUT_METHOD_SELECTOR = "input_method_selector";
     private static final String KEY_USER_DICTIONARY_SETTINGS = "key_user_dictionary_settings";
-    private static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
-    private static final String KEY_STYLUS_GESTURES = "stylus_gestures";
-
     // false: on ICS or later
     private static final boolean SHOW_INPUT_METHOD_SWITCHER_SETTINGS = false;
 
@@ -173,11 +170,6 @@ public class InputMethodAndLanguageSettings extends SettingsPreferenceFragment
         mIm = (InputManager)getActivity().getSystemService(Context.INPUT_SERVICE);
         updateInputDevices();
 
-        // remove stylus preference for non stylus devices
-        if (!getResources().getBoolean(com.android.internal.R.bool.config_stylusGestures)) {
-            getPreferenceScreen().removePreference(findPreference(KEY_STYLUS_GESTURES));
-            mStylusIconEnabled = null;
-        }
         // Spell Checker
         final Intent intent = new Intent(Intent.ACTION_MAIN);
         intent.setClass(getActivity(), SpellCheckersSettingsActivity.class);
