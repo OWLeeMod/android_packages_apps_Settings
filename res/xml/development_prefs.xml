@@ -16,10 +16,6 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/development_settings_title">
-		
-	<PreferenceCategory
-    android:title="@string/system_category"/>
-		
     <com.android.settings.BugreportPreference
             android:key="bugreport"
             android:title="@*android:string/bugreport_title"
@@ -111,9 +107,6 @@
             android:summary="@string/wifi_display_certification_summary"/>
     </PreferenceCategory>
 
-	<PreferenceCategory
-    android:title="@string/test_tools_category"/>
-			
     <PreferenceCategory android:key="debug_input_category"
             android:title="@string/debug_input_category">
 
@@ -146,9 +139,6 @@
             android:key="force_rtl_layout_all_locales"
             android:title="@string/force_rtl_layout_all_locales"
             android:summary="@string/force_rtl_layout_all_locales_summary"/>
-			
-		<PreferenceCategory
-            android:title="@string/animation_settings_category"/>
 
         <ListPreference
             android:key="window_animation_scale"

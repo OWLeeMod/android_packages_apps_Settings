@@ -95,10 +95,8 @@
     <string name="volume_ring_only_description">Рингтон</string>
 
     <string name="increasing_ring_title">Возрастающая громкость звонка</string>
-	
     <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
     <string name="checkbox_increasing_ring">Включить</string>
-	
     <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
     <string name="increasing_ring_min_volume_title">Начальная громкость звонка</string>
     <string name="increasing_ring_volume_notice">Примечание:\nЕсли начальная громкость выше установленной в данный момент, звонок будет воспроизведён на громкости, установленной в системе.</string>
@@ -214,6 +212,17 @@
     <string name="battery_circle">Круг</string>
     <string name="battery_circle_percent">Круг с %</string>
 
+    <!-- Low battery warning policy -->
+    <string name="pref_low_battery_warning_policy_title">Предупреждение о низком заряде батареи</string>
+    <string name="pref_low_battery_warning_policy_dialog_title">Укажите какое предупреждение показывать</string>
+    <string name="low_battery_warning_policy_popup_sound">Диалог и звук</string>
+    <string name="low_battery_warning_policy_notif_sound">Уведомление и звук</string>
+    <string name="low_battery_warning_policy_popup">Только диалог</string>
+    <string name="low_battery_warning_policy_notif">Только уведомление</string>
+    <string name="low_battery_warning_policy_sound">Только звук</string>
+    <string name="battery_prefs_title">Настройки</string>
+    <string name="battery_stats_title">Статистика</string>
+
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">Предупреждение!</string>
     <string name="custom_runtime_warning_message">ART не поддерживается OWLee-Mod. Эта опция является экспериментальной и может повлечь нестабильную работу, ошибки, потерю данных или даже препятствовать загрузке устройства. Посетите страницу «&lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Введение в ART&lt;/a&gt;» (на английском языке) для получения подробных сведений.&lt;br/&gt;&lt;br/&gt;Мы просим не присылать баг-репорты, если вы выбрали ART в качестве среды выполнения системы.&lt;br/&gt;&lt;br/&gt;Вы действительно хотите перезагрузить устройство и переключить среду выполнения с «<xliff:g id="old" example="libdvm.so">%1$s</xliff:g>» на «<xliff:g id="new" example="libart.so">%2$s</xliff:g>»?</string>
@@ -227,13 +236,9 @@
     <string name="changelog_error">Ошибка загрузки списка изменений</string>
     <string name="changelog_unknown">Неизвестно</string>
     <string name="changelog_version">Версия</string>
-	
-	<!--Dev category-->
-	<string name="system_category">Системные</string>
-	<string name="test_tools_category">Инструменты тестирование</string>
-	<string name="animation_settings_category">Настройки анимации</string>
 
     <!--OM version-->
     <string name="om_version">Версия OWLee-Mod</string>
     <string name="om_version_default">Неизвестно</string>
 </resources>
+
