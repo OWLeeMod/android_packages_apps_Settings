@@ -47,9 +47,7 @@ import android.util.Log;
 import android.view.DisplayInfo;
 import android.view.WindowManager;
 
-import com.android.internal.telephony.util.BlacklistUtils;
 import com.android.internal.widget.LockPatternUtils;
-import com.android.settings.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -92,8 +90,6 @@ public class SecuritySettings extends RestrictedSettingsFragment
     private static final String KEY_NOTIFICATION_ACCESS = "manage_notification_access";
     private static final String PACKAGE_MIME_TYPE = "application/vnd.android.package-archive";
     private static final String LOCKSCREEN_MAXIMIZE_WIDGETS = "lockscreen_maximize_widgets";
-    private static final String KEY_APP_SECURITY_CATEGORY = "app_security";
-    private static final String KEY_BLACKLIST = "blacklist";
 
     private PackageManager mPM;
     private DevicePolicyManager mDPM;
@@ -126,7 +122,6 @@ public class SecuritySettings extends RestrictedSettingsFragment
         super(null /* Don't ask for restrictions pin on creation. */);
     }
 
-    private PreferenceScreen mBlacklist;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -348,14 +343,6 @@ public class SecuritySettings extends RestrictedSettingsFragment
             }
         }
 
-        mBlacklist = (PreferenceScreen) root.findPreference(KEY_BLACKLIST);
-
-        // Determine options based on device telephony support
-        if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_TELEPHONY)) {
-            // No telephony, remove dependent options
-            root.removePreference(mBlacklist);
-        }
-
         mNotificationAccess = findPreference(KEY_NOTIFICATION_ACCESS);
         if (mNotificationAccess != null) {
             final int total = NotificationAccessSettings.getListenersCount(mPM);
@@ -558,8 +545,6 @@ public class SecuritySettings extends RestrictedSettingsFragment
                 }
             }
         }
-
-        updateBlacklistSummary();
     }
 
     @Override
@@ -703,9 +688,5 @@ public class SecuritySettings extends RestrictedSettingsFragment
     return (getActivity().getApplicationContext().getResources().getConfiguration().screenLayout
             & Configuration.SCREENLAYOUT_SIZE_MASK)
             >= Configuration.SCREENLAYOUT_SIZE_LARGE;
-            } else {
-                mBlacklist.setSummary(R.string.blacklist_summary_disabled);
-            }
-        }
     }
 }

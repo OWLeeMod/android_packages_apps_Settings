@@ -17,9 +17,7 @@
 package com.android.settings;
 
 import android.app.Fragment;
-import android.app.FragmentManager;
 import android.util.Log;
-import android.view.MenuItem;
 
 import com.android.settings.ChooseLockGeneric.ChooseLockGenericFragment;
 
@@ -28,11 +26,10 @@ import com.android.settings.ChooseLockGeneric.ChooseLockGenericFragment;
  * since for our app it is a special singleTask class.
  */
 public class SubSettings extends Settings {
+
     @Override
     public boolean onNavigateUp() {
-        if (!popFragment()) {
-            finish();
-        }
+        finish();
         return true;
     }
 
@@ -40,14 +37,5 @@ public class SubSettings extends Settings {
     protected boolean isValidFragment(String fragmentName) {
         Log.d("SubSettings", "Launching fragment " + fragmentName);
         return true;
-    }
-
-    private boolean popFragment() {
-        FragmentManager fm = getFragmentManager();
-        if (fm.getBackStackEntryCount() > 0) {
-            fm.popBackStack();
-            return true;
-        }
-        return false;
     }
 }
