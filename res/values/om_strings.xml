@@ -23,7 +23,7 @@
     <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
     <string name="wifi_setting_countrycode_error">There was a problem setting the region code.</string>
 
-    <!--Notification LED category header-->
+    <!--Notification LED-->
     <string name="notification_led_category_title">Notification LED</string>
 
     <!--Notification light dialogs-->
@@ -65,7 +65,7 @@
     <string name="pulse_speed_slow">Slow</string>
     <string name="pulse_speed_very_slow">Very slow</string>
 	
-	<!-- Display : Rotation -->
+	<!--Display: Rotation-->
 	<string name="display_rotation_title">Rotation</string>
 	<string name="display_rotation_disabled">Disabled</string>
 	<string name="display_rotation_unit">degrees</string>
@@ -140,13 +140,10 @@
 
     <!-- Lockscreen widgets -->
     <string name="security_maximize_widgets_title">Maximize widgets</string>
-
-    <!-- Basic Numbers -->
-    <string name="two">Two</string>
-    <string name="three">Three</string>
-    <string name="four">Four</string>
-    <string name="five">Five</string>
-    <string name="six">Six</string>
+	
+	<!-- Whether to display IME switcher notifcation -->	954
+	<string name="ime_switcher_notify">Selector notification</string>	955
+	<string name="ime_switcher_notify_summary">Display input method selector notification</string>
 
     <!-- Quiet hours -->
     <string name="quiet_hours_title">Quiet hours</string>
@@ -208,6 +205,13 @@
     <!-- time range preference -->
     <string name="start_time_title">Start</string>
     <string name="end_time_title">End</string>
+	
+	<!-- Basic Numbers -->
+    <string name="two">Two</string>
+    <string name="three">Three</string>
+    <string name="four">Four</string>
+    <string name="five">Five</string>
+    <string name="six">Six</string>
 
     <!-- Profiles settings -->
     <string name="profiles_settings_title">Profiles</string>
