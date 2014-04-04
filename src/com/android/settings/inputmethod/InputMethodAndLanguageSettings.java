@@ -170,14 +170,6 @@ public class InputMethodAndLanguageSettings extends SettingsPreferenceFragment
         mIm = (InputManager)getActivity().getSystemService(Context.INPUT_SERVICE);
         updateInputDevices();
 
-        // Enable or disable mStatusBarImeSwitcher based on boolean: config_show_cmIMESwitcher
-        boolean showCmImeSwitcher = getResources().getBoolean(
-                com.android.internal.R.bool.config_show_cmIMESwitcher);
-        if (!showCmImeSwitcher) {
-            getPreferenceScreen().removePreference(
-                    findPreference(Settings.System.STATUS_BAR_IME_SWITCHER));
-        }
-
         // Spell Checker
         final Intent intent = new Intent(Intent.ACTION_MAIN);
         intent.setClass(getActivity(), SpellCheckersSettingsActivity.class);
