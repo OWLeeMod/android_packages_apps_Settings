@@ -84,17 +84,8 @@
        <string name="navigation_bar_menu_editable">Editable</string>
        <string name="navigation_bar_menu_locked">Locked</string>
 	
-        <string name="navring_action_ring_vibrate">Ring/Vibration</string>
-        <string name="navring_action_ring_silent">Ring/Silent</string>
-        <string name="navring_action_ring_vibrate_silent">Ring/Vibration/Silent</string>
-        <string name="navring_action_screen_off">Screen off</string>
-        <string name="navring_action_torch">Toggle torch</string>
-        <string name="navring_action_google_now">Google Now</string>
-        <string name="navring_choose_action_title">Choose action</string>
-	
 	<!-- Font size sample text. This needs to be a very short string, as it is shown in multiple font sizes in a limited amount of space. -->
 	<string name="font_size_sample">Sample</string>
-	
 
     <!-- Volume adjust sounds -->
     <string name="volume_adjust_sounds_enable_summary">Play sound when adjusting ringtone with volume buttons</string>
