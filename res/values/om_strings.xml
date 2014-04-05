@@ -80,6 +80,10 @@
 	<string name="display_rotation_180_title">180 degrees</string>
 	<string name="display_rotation_270_title">270 degrees</string>
 	
+       <string name="navigation_bar_reset_toast">Navigation bar reset to default</string>
+       <string name="navigation_bar_menu_editable">Editable</string>
+       <string name="navigation_bar_menu_locked">Locked</string>
+	
         <string name="navring_action_ring_vibrate">Ring/Vibration</string>
         <string name="navring_action_ring_silent">Ring/Silent</string>
         <string name="navring_action_ring_vibrate_silent">Ring/Vibration/Silent</string>
